@@ -1,13 +1,15 @@
 .card {
     align-items: center;
     border: 3px solid #2f2f2f;
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     font-family: 'Archivo';
     justify-content: center;
-    margin: 1rem auto;
+    margin: 1rem;
     min-height: 100px;
-    min-width: 200px;
+    min-width: 305px;
+    max-width: 305px;
     padding: 1rem;
     transition: all .3s ease;
 

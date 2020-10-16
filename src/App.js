@@ -5,8 +5,10 @@ import Card from './Components/Card/index'
 function App() {
   return (
     <div className="App">
-      <HeaderJose></HeaderJose>
-      <Card></Card>
+      <HeaderJose />
+      <div className="Poems"> 
+        <Card />  
+      </div>
     </div>
   );
 }
