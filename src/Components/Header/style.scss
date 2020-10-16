@@ -1,0 +1,19 @@
+.header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Archivo';
+    justify-content: center;
+}
+
+.header__title {
+    text-transform: uppercase;
+}
+
+.header__text {
+    letter-spacing: .1rem;
+    margin-bottom: 2rem;
+    max-width: 650px;
+    padding: 0 1rem;
+    text-align: center;
+}

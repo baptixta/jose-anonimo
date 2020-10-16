@@ -1,0 +1,17 @@
+.card {
+    align-items: center;
+    border: 3px solid #2f2f2f;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Archivo';
+    justify-content: center;
+    margin: 1rem auto;
+    min-height: 100px;
+    min-width: 200px;
+    padding: 1rem;
+    transition: all .3s ease;
+
+    &:hover {
+        transform: scale(1.04);
+    }
+}
