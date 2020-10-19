@@ -1,5 +1,5 @@
 import React from 'react';
-import HeaderJose from './Components/Header/index'
+import HeaderJose from './Components/Header/index';
 import Card from './Components/Card/index'
 
 function App() {
