@@ -9,10 +9,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.dark {
-  background-color: #02041a;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -20,9 +16,16 @@ code {
 
 .App {
   align-items: center;
+  background: #f1f1f1;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  min-height: 100vh;
+  transition: all .4s ease;
+}
+
+.dark {
+  filter: invert(1)
 }
 
 .Poems {
