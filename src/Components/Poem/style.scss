@@ -1,0 +1,18 @@
+.poem {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.poemTitle {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.poemText {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    max-width: 600px;
+}
