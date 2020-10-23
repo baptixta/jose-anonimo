@@ -13,7 +13,7 @@ const jose = {
 	hobby: 'Fotografia',
 	idade: 24,
 	nome: 'José Anônimo da Silva',
-	peso: '78kg'
+	peso: '78kg',
 	profissão: 'Full Stack Developer',
 	signo: 'Escorpião'
 }
