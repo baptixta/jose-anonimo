@@ -15,7 +15,7 @@ const jose = {
 	nome: 'José Anônimo da Silva',
 	peso: '78kg'
 	profissão: 'Full Stack Developer',
-	signo: 'Escorpião',
+	signo: 'Escorpião'
 }
 ```
 :pencil2: José Anônimo é um **heterônimo** criado por *Davi Baptista*.
