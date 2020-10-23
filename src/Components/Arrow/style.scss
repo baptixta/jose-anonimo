@@ -1,0 +1,46 @@
+.arrow {
+    align-items: center;
+    background: #000000;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    left: 3rem;
+    position: absolute;
+    top: 2.2rem;
+    height: 6px;
+    width: 32px;
+    transition: all .3s ease;
+
+    &:before {
+        background: #000000;
+        content: '';
+        height: 6px;
+        width: 18px;
+        transform: rotate(-45deg);
+        left: -.2rem;
+        top: -.25rem;
+        position: absolute;
+    }
+
+    &:after {
+        background: #000000;
+        content: '';
+        height: 6px;
+        width: 18px;
+        transform: rotate(45deg);
+        left: -.2rem;
+        top: .23rem;
+        position: absolute;
+    }
+
+    &:hover {
+        transform: scale(1.15);
+    }
+}
+
+// Mobile 
+@media (max-width: 450px) {
+    .arrow {
+        left: 2rem;
+    }
+}

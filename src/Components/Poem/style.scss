@@ -1,18 +1,42 @@
 .poem {
     align-items: center;
+    border: 5px solid #2f2f2f;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 100vh;
+    margin: 3rem auto;
+    min-height: 55vh;
+    padding: 2.6rem;
 }
 
 .poemTitle {
-    font-size: 1.8rem;
+    align-self: flex-start;
+    font-size: 1.4rem;
     text-transform: uppercase;
 }
 
 .poemText {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     line-height: 3rem;
     max-width: 600px;
+    min-width: 574px;
+    white-space: pre-line;
+}
+
+// Responsive
+
+@media (max-width: 750px) {
+    .poem {
+        border: none;
+    }
+
+    .poemText {
+        min-width: unset;
+    }
+}
+
+@media (max-width: 500px) {
+    .poemText {
+        font-size: 1rem;
+    }
 }

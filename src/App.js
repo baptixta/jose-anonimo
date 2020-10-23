@@ -1,22 +1,17 @@
 import React from 'react';
-import HeaderJose from './Components/Header/index';
-import Card from './Components/Card/index'
-import Toggle from './Components/Toggle/index'
-import Poem from './Components/Poem/index'
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './index.css'
+import Home from './Pages/Home/Home'
+import VolumeUm from './Pages/VolumeOne/VolumeOne'
 
 function App() {
-  const [theme, setTheme] = React.useState(false)
-
   return (
-    <div className={theme ? 'App dark' : 'App'} theme={theme}>
-      <Toggle setTheme={setTheme} text={theme ? 'noite' : 'dia'} />
-      <Poem name={'Teste'} text={"Poema teste."} />
-      <HeaderJose />    
-      <div className="Poems"> 
-        <Card />  
-      </div>
-    </div>
+    <>
+      <Router>
+        <Route path="/" exact component={Home}></Route>
+        <Route path="/VolumeI" exact component={VolumeUm}></Route>
+      </Router>
+    </>
   );
 }
 

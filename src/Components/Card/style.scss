@@ -17,3 +17,12 @@
         transform: scale(1.04);
     }
 }
+
+// Mobile 
+
+@media (max-width: 400px) {
+    .card {
+        min-width: 240px;
+        max-width: 240px;
+    }
+}

@@ -2,15 +2,15 @@ import React from 'react'
 import Poems from '../../Data/poems.json'
 import './style.scss'
 
-const Poem = ({ name, text }) => {
+const Poem = () => {
     return (
         <>
-            {Poems.map(() => {
+            {Poems.map((poem, index) => {
                 return (
-                    <div className="poem">
-                        <h2 className="poemTitle">{name}</h2>
+                    <div className="poem" key={index}>
+                        <h2 className="poemTitle">{poem.title}</h2>
 
-                        <p className="poemText">{text}</p>
+                        <p className="poemText">{poem.poem}</p>
                     </div>
                 )
             })}
