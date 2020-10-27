@@ -1,6 +1,7 @@
 import React from 'react';
 import './poem.scss';
 import Poema from '../../Components/Poem/index';
+import Poems from '../../Data/poems.json'
 import HeaderJose from '../../Components/Header';
 import Arrow from '../../Components/Arrow/arrow';
 import { Link } from 'react-router-dom';
@@ -10,7 +11,7 @@ function Poem() {
     <div className="App dark">
         <Link to="/" className="Link"><Arrow /></Link>
         <HeaderJose title="Volume I" text="A primeira noite de insônia, de muitas que ainda viriam." />
-        <Poema />
+        <Poema conteudo={Poems} />
     </div>
   );
 }

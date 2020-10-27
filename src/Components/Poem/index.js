@@ -1,11 +1,10 @@
 import React from 'react'
-import Poems from '../../Data/poems.json'
 import './style.scss'
 
-const Poem = () => {
+const Poem = ({ conteudo }) => {
     return (
         <>
-            {Poems.map((poem, index) => {
+            {conteudo.map((poem, index) => {
                 return (
                     <div className="poem" key={index}>
                         <h2 className="poemTitle">{poem.title}</h2>
