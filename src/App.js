@@ -4,6 +4,7 @@ import './index.css'
 import Home from './Pages/Home/Home'
 import VolumeUm from './Pages/Poemas/VolumeOne'
 import Amigos from './Pages/Poemas/Amigos'
+import Abecede from './Pages/Poemas/Abecede';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" exact component={Home}></Route>
         <Route path="/VolumeI" exact component={VolumeUm}></Route>
         <Route path="/Amigos" exact component={Amigos}></Route>
+        <Route path="/Abecede" exact component={Abecede}></Route>
       </Router>
     </>
   );
