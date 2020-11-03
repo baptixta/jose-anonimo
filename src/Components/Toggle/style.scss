@@ -1,0 +1,36 @@
+.mode {
+    color: #2f2f2f;
+    cursor: pointer;
+    display: flex;
+    font-weight: 500;
+    position: absolute;
+    top: 0;
+    right: 3rem;
+    text-transform: uppercase;
+
+    &:after {
+        background: #2f2f2f;
+        bottom: 0;
+        content: '';
+        height: 2px;
+        position: absolute;
+        width: 100%;
+        transition: width .3s ease;
+    }
+
+
+    &:hover {
+        &:after {
+            width: 50%;
+        }
+    }
+}
+
+// Responsive
+
+@media (max-width: 580px) {
+    .mode {
+        position: relative;
+        right: 0;
+    }
+}
