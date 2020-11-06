@@ -5,6 +5,7 @@ import Home from './Pages/Home/Home'
 import VolumeUm from './Pages/Poemas/VolumeOne'
 import Amigos from './Pages/Poemas/Amigos'
 import Abecede from './Pages/Poemas/Abecede';
+import VolumeDois from './Pages/Poemas/VolumeDois';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/VolumeI" exact component={VolumeUm}></Route>
         <Route path="/Amigos" exact component={Amigos}></Route>
         <Route path="/Abecede" exact component={Abecede}></Route>
+        <Route path="/VolumeII" exact component={VolumeDois}></Route>
       </Router>
     </>
   );
