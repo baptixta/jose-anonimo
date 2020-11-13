@@ -19,7 +19,8 @@ function Home() {
         <Link to="/VolumeI" className="Link"><Card title="Volume I" /></Link>
         <Link to="/Amigos" className="Link"><Card title="Amigos" /></Link>
         <Link to="/Abecede" className="Link"><Card title="Abecedê" /></Link>
-        <Link to="/VolumeII" className="Link"><Card title="Volume II" /></Link>        
+        <Link to="/VolumeII" className="Link"><Card title="Volume II" /></Link> 
+        <Link to="/Ela" className="Link"><Card title="Ela" /></Link>       
       </div>
     </div>
   );
